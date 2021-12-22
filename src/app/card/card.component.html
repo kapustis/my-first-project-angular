@@ -1,0 +1,8 @@
+<div class="card">
+  <h2>{{card.title}}</h2>
+  <p>{{card.body}}</p>
+  <img [src]="imgUrl" [alt]="card.title">
+  <label>
+    <input type="text" [(ngModel)]="card.title" (ngModelChange)="inputHandler(card.title)">
+  </label>
+</div>

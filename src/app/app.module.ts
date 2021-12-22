@@ -3,12 +3,12 @@ import {NgModule} from '@angular/core';
 import {FormsModule} from "@angular/forms";
 
 import {AppComponent} from './app.component';
-import {CartComponent} from './cart/cart.component';
+import {CardComponent} from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CartComponent
+    CardComponent
   ],
   imports: [
     BrowserModule,
